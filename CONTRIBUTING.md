@@ -16,10 +16,9 @@ Kindly refer the [getting started guide](https://docs.google.com/document/d/1z5c
 
 #### Note for issue creation and PR proposals
 
-Kindly utilise the templates provided in the `.github` directory of the main branch to create relative issues and PRs. You can also go adventurous if you have something fun in your mind, but kindly maintain a similar workflow by taking the already available templates as a reference.
+Kindly utilise the templates provided in the `.github` directory of the main branch to create relative PRs. You can also go adventurous if you have something fun in your mind, but kindly maintain a similar workflow by taking the already available templates as a reference.
 
 For proposing a PR with a new piece of software, utilise PR template `pull_request_template.md` using GitHub API.
-
 
 
 
@@ -36,9 +35,9 @@ $ git clone https://github.com/<User-Name>/<Repo-Name>.git
 $ git clone git@github.com:<User-Name>/<Repo-Name>.git
 
 ## Add upstream remote
-$ git remote add upstream https://github.com/Crio-WFH/AWS-Lambda-functions.git
+$ git remote add upstream https://github.com/Crio-WFH/Android-apps.git
 # - OR -
-$ git remote add upstream git@github.com:Crio-WFH/AWS-Lambda-functions.git
+$ git remote add upstream git@github.com:Crio-WFH/Android-apps.git
 
 ## Syncing with upstream/main branch
 $ git fetch upstream
