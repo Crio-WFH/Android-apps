@@ -8,7 +8,14 @@
 
 <a href="https://twitter.com/crio_do"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/crio_do?style=for-the-badge&color=09f&labelColor=black&logo=twitter&label=@crio_do"></a>
 
+
 # Introduction
+You can write Android apps in your preferable programming language using an IDE called Android Studio.
+
+References To get started :
+- [Build Your First Android App in Java ](https://developer.android.com/codelabs/build-your-first-android-app)
+
+
 
 ## Contributors ✨
 
