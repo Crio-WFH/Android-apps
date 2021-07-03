@@ -1,5 +1,14 @@
 # Contribution Guidelines
 
+`Important things to keep in mind while operating on the main organization repositories:` 
+
+`1. Do not touch any other files (Add/Update/Delete) in any of the repositories in the parent branch.`
+`2. Any type of changes should be carried out only from your local machine or personal github. `
+`3. Do not touch the following file(s)/folder(s)`
+`4. readme.md (Inside the repository. Your project specific readme is different.)`
+ ` a. .all-contributors-src`
+ ` b. CONTRIBUTING.md - For your reference`
+ ` c. .github folder`
 
 
 ### How can you contribute to Crio Open Source in #IBelieveinDoing Work From Home Edition?
