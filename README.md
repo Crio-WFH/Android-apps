@@ -1,4 +1,4 @@
-# Android-apps
+# Android-Apps
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
@@ -8,16 +8,37 @@
 
 <a href="https://twitter.com/crio_do"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/crio_do?style=for-the-badge&color=09f&labelColor=black&logo=twitter&label=@crio_do"></a>
 
+#### DISCLAIMER
+
+    1. Do not touch any other files (Add/Update/Delete) in any of the repositories in the parent branch.
+    2. Any type of changes should be carried out only from your local machine or personal github account. 
+    3. Do not touch the following file(s)/folder(s) 
+        - readme.md (Inside the repository. Your project specific readme is different.) 
+        - .all-contributors-src
+        - CONTRIBUTING.md - For your reference 
+        - .github folder
 
 # Introduction
-You can write Android apps in your preferable programming language using an IDE called Android Studio.
+An Android app is a software application running on the Android platform. Because the Android platform is built for mobile devices, a typical Android app is designed for a smartphone or a tablet PC running on the Android OS. You can write Android apps in your preferable programming language using a commonly used IDE called Android Studio.
 
 References To get started :
 - [Build Your First Android App in Java ](https://developer.android.com/codelabs/build-your-first-android-app)
 
+# Regarding Submissions 
 
+Please refer to `contributing.md` within the same folder for all the submission guidelines. It contains the documentation process/Demo video to assist you.
 
-## Contributors ✨
+<!--### 1. Fork this repo !
+  ![img](https://github.com/Crio-WFH/demo/blob/main/dont%20delete%20this%20file/Screenshot%20from%202021-07-03%2013-25-36.png)
+  
+### 2. After forking , Made a new folder  
+ ![img2](https://github.com/Crio-WFH/demo/blob/main/dont%20delete%20this%20file/Screenshot%20from%202021-07-03%2013-25-59.png)
+ ![img3](https://github.com/Crio-WFH/demo/blob/main/dont%20delete%20this%20file/Screenshot%20from%202021-07-03%2013-26-20.png)
+ 
+### 3. See [Folder name](https://github.com/Username-demo/Android-apps/tree/main/Project%20name) to view further structure -->
+
+ 
+# Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
