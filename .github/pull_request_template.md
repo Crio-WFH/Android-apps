@@ -14,7 +14,7 @@ Below given are the mandatory requirements we expect from your project. Your Pul
 - [ ]  I have provided the demo video link (showing the functionality in action) or the public deployment link of my extension of application within the readme.md (if Applicable).
 - [ ] I have explained the process in a readable manner within readme.md.
 
-### Terms and Conditions: 
+### Terms and Conditions
 
 `Plagiarism check from Team Crio will be solid and if your code is found to be plagiarized, the team has every right to reject your Pull Request and take necessary actions.`
 - [ ] I can assure you that this is my own contribution and I did not involve in any kind of plagiarism activities.
