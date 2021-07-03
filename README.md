@@ -26,7 +26,7 @@ References To get started :
 
 ### Regarding Submissions 
 
-Please refer to `contributing.md` within the same folder for all the submission guidelines. It contains the documentation process/Demo video to assist you.
+Please refer to `contributing.md` within the same folder for all the submission guidelines. It contains the documentation process/Demo video to assist you. For the readme structure inside your project, check the readme inside [Project_Name](https://github.com/Crio-WFH/Android-apps/tree/main/Project_Name). 
 
 <!--### 1. Fork this repo !
   ![img](https://github.com/Crio-WFH/demo/blob/main/dont%20delete%20this%20file/Screenshot%20from%202021-07-03%2013-25-36.png)
