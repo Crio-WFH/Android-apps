@@ -3,7 +3,7 @@
 ### Summary 
 
 There are various things you can add in summary.
-- Reasib behind this particular idea
+- Reason behind this particular idea
 - How it works
 - Languages you have used to make this
 - What are it's applications
