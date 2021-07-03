@@ -35,7 +35,7 @@ Please refer to `contributing.md` within the same folder for all the submission 
  ![img2](https://github.com/Crio-WFH/demo/blob/main/dont%20delete%20this%20file/Screenshot%20from%202021-07-03%2013-25-59.png)
  ![img3](https://github.com/Crio-WFH/demo/blob/main/dont%20delete%20this%20file/Screenshot%20from%202021-07-03%2013-26-20.png)
  
-### 3. See [Folder name](https://github.com/Username-demo/Android-apps/tree/main/Project%20name) to view further structure -->
+### 3. See [Project_Name](https://github.com/Crio-WFH/Android-apps/tree/main/Project_Name) to view further structure -->
 
  
 ### Contributors ✨
