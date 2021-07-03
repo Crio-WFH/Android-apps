@@ -8,7 +8,7 @@ Is your project an
 - [ ] Application
 
 
-Below given are the mandatory requirements we expect from your project. Your Pull Request will be reviewed only if all the minimum requirements relevant to your project are satisfied.
+Given below are the mandatory requirements we expect from your project. Your Pull Request will be reviewed only if all the minimum requirements relevant to your project are satisfied.
 
 - [ ] Added readme.md to my project folder with relevant information.
 - [ ]  I have provided the demo video link (showing the functionality in action) or the public deployment link of my extension of application within the readme.md (if Applicable).
