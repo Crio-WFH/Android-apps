@@ -1,9 +1,9 @@
 ## Pull Request Checklist
 
 Go through the check boxes given below and make sure you mark the relevant ones.
+#### to check put x inside [] eg. [x] Extension
 
 Is your project an
-#### to check put x inside [] eg. [x] Extension
 - [ ] Extension 
 - [ ] Application
 
