@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "610581961432",
+    "project_id": "meetup-94afe",
+    "storage_bucket": "meetup-94afe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610581961432:android:3725693fc663f77216d5ad",
+        "android_client_info": {
+          "package_name": "atikant.meetup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "610581961432-8caia9102srjtvrnv4krlkmngmp9nt7k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "atikant.meetup",
+            "certificate_hash": "6d44838511bf8616e19d88b5e981050252193bff"
+          }
+        },
+        {
+          "client_id": "610581961432-82r6u48pc5nsau5prot65suclvjudopn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkTh7jyUNKIZa8wVAVGjUmBPXgsaaOshs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "610581961432-82r6u48pc5nsau5prot65suclvjudopn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
