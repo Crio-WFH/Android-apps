@@ -35,7 +35,7 @@ https://www.youtube.com/watch?v=n4INqNN_OAA
 - Dart
 - Flutter
 - Google Calendar API
-- Google Firestore Database
+- Firebase Cloud Firestore
 
 #### Created with ❤️ by Atikant Ahluwalia. 
 Find me here! [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahluwaliatikant/)
