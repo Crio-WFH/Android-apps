@@ -3,6 +3,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:googleapis_auth/auth_io.dart';
 import 'package:googleapis/calendar/v3.dart' as cal;
 import 'package:meetup/screens/allMeets.dart';
+import 'package:meetup/screens/chooseAnApp.dart';
 import 'package:meetup/screens/createEventScreen.dart';
 import 'package:meetup/screens/createGroupScreen.dart';
 import 'package:meetup/screens/homeScreen.dart';

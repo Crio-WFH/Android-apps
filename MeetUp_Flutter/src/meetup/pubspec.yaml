@@ -31,6 +31,7 @@ dependencies:
   google_fonts: ^2.1.0
   http: ^0.13.3
   flutter_svg: ^0.22.0
+  external_app_launcher: ^0.0.1
   flutter:
     sdk: flutter
 

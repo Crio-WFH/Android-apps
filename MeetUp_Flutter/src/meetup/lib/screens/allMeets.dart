@@ -1,8 +1,10 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:external_app_launcher/external_app_launcher.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
 import 'package:meetup/constants.dart';
+import 'package:meetup/screens/chooseAnApp.dart';
 import 'package:meetup/utils/firebaseHandler.dart';
 import 'package:meetup/models/eventModel.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -84,7 +86,11 @@ class _AllMeetsScreenState extends State<AllMeetsScreen> {
                                     ),
                                     TextButton(
                                       onPressed: () async{
-                                        await launch(event.link);
+                                        if(event.link == ""){
+                                          Navigator.push(context, MaterialPageRoute(builder: (context) => ChooseAppScreen()));
+                                        }else {
+                                          await launch(event.link);
+                                        }
                                       },
                                       style: TextButton.styleFrom(
                                           backgroundColor: mainBeigeColor,

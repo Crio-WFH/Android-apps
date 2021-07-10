@@ -32,6 +32,7 @@ class _CreateScreenState extends State<CreateScreen> {
 
   bool notifyAttendees = false;
   bool isConference = false;
+  bool useAnotherApp = false;
 
   _selectDate(BuildContext context) async {
     final DateTime picked = await showDatePicker(
@@ -429,6 +430,42 @@ class _CreateScreenState extends State<CreateScreen> {
                                   onChanged: (value){
                                     setState(() {
                                       isConference = value;
+                                      useAnotherApp = !value;
+                                    });
+                                  }
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.only(left: 8.0),
+                            child: Text(
+                              "Use Another App:",
+                              style: GoogleFonts.poppins(
+                                  textStyle: TextStyle(
+                                    color: matteBlack,
+                                    fontSize: 18,
+                                  )
+                              ),
+                            ),
+                          ),
+                          SizedBox(
+                            height: 10,
+                          ),
+                          Container(
+                            padding: EdgeInsets.only(right: 8.0),
+                            child: Transform.scale(
+                              scale: 1.3,
+                              child: Switch(
+                                  value: useAnotherApp,
+                                  onChanged: (value){
+                                    setState(() {
+                                      useAnotherApp = value;
+                                      isConference = !value;
                                     });
                                   }
                               ),
@@ -506,21 +543,20 @@ class _CreateScreenState extends State<CreateScreen> {
                                     startTime: startDateTime,
                                     endTime: endDateTime,
                                 ).then((Map<String, String> eventData)  async {
-                                  print("YE HAI EVENT DATA");
-                                  print(eventData);
-                                  print("YE BHI HAI MERI ID:" + eventData["id"]);
+
+                                  String meetLink = "";
+
                                   String eventId = eventData["id"];
-                                  String meetLink = eventData["link"];
+
+                                  if(isConference)
+                                    meetLink = eventData["link"];
 
                                   List<String> emailsList = [];
-                                  print("EMAILS KI LIST: ");
-                                  print(emailsList);
+
                                   for(int i=0 ; i<attendeesList.length ; i++){
                                     emailsList.add(attendeesList[i].email);
                                   }
 
-                                  print("EMAILS KI LIST: ");
-                                  print(emailsList);
 
                                   int startTimeSinceEpoch = startDateTime.millisecondsSinceEpoch;
                                   int endTimeSinceEpoch = endDateTime.millisecondsSinceEpoch;
