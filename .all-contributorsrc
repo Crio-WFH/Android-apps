@@ -66,6 +66,18 @@
         "doc",
         "code"
       ]
+    },
+    {
+      "login": "ahluwaliatikant",
+      "name": "ahluwaliatikant",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52076751?v=4",
+      "profile": "https://github.com/ahluwaliatikant",
+      "contributions": [
+        "code",
+        "design",
+        "infra",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
